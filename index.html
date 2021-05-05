@@ -8,6 +8,10 @@
 
     <meta name="author" content="sparkos">
 
+        <!--Swiper-->
+        <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
+
 
 
    <!-- Primary Meta Tags -->
@@ -235,44 +239,123 @@
             </div>
         </div>
     </section>
-
-    <center class="section-gap" id="portfolio">
-        <div class="gallery">
-
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/1.png" alt="">
-            </div>
-
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/2.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/3.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/4.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/5.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/6.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/7.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/8.png" alt="">
-            </div>
-            <div class="gallery-item">
-                <img class="gallery-image" src="./assets/img/9.png" alt="">
-            </div>
-
-
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/1.png" alt="">
         </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/2.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/3.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/4.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/5.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/6.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/7.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/8.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/9.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="img">
+          <img src="assets/img/10.png" alt="">
+        </div>
+        <div class="content">
+         
+        </div>
+    </div>
 
-    </center>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
 
+  <!-- Swiper JS -->
+  <script src="swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: false,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      autoplay: {
+        delay: 1700,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 20,
+        depth: 500,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+   
     <section class="section-gap" id="apply">
         <div class="container mx-auto">
             <div class="row">
