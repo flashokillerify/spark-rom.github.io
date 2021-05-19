@@ -4483,30 +4483,3 @@ Remove or comment-out the code block below to see how the browser will fall-back
         margin: 0;
     }
 }
-body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: contain;
-    width: 300px;
-    height: 600px;
-  }
-  
-  .swiper-slide .img, .swiper-slide .img img{
-    width: 100%;
-    height: 600px;
-  }
-  
-  .swiper-slide .content{
-    width: 100%;
-    text-align: center;
-  }
