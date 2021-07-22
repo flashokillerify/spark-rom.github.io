@@ -1,38 +1,29 @@
-Changelog for v4.0, codenamed Blaze
+Changelog for v6.9 Hotfix Update (Hotfix = Mostly bug fixes and some more stuff), codename: vFire
 
 Bug Fixes:
-• Fixed an issue with indicators on WiFi and LTE icon be stuck 
-• Fixed some touch  issues on miui volume panel
-• Fixed some SystemUI crashes
-• Fixed an issue with live wallpapers causing systemUI crash
-• Fixed an issue with no charging animation being shown on power off charging
-• Fixed an issue with showing Ambient lights on aod option getting disabled 
+• Fixed Some choppiness and Lag that shouldn't be there.
+• Improved Android S clocks
+• Fixed That Yellow accent Being everywhere
+• Removed Font service and replaced it with old good fonts 
+• Fixed Some issues With Vowifi icons 
+• Nuked Monet (for now)
+• Fixed Qs clock overlapping stuff 
+• Added Missing Square icon pack 
+• Removed Custom sb padding options
+• Fixed some Dialer Issues
+• Fixed Weird padding with Dnd on 
+• Fixed some issues with Battery Estimates
 
- Feature Additions:
-• Removed reticker and added ticker (more stable , more options)
-• Added option to make colored SB and header icons optional
-• Fixed some wrong default values in Fireworks
-• Added more visualizer options 
-• Added seekbar for notification background opacity 
-• Added options for heads up snooze , timeout , blacklist
-• Added some more options for  edge light
-• Added option to use AOD icons on lockscreen 
-• Increased size of IDE clock and made it better shaped 
-• Added some missing permissions to SystemUI
-• Added clockertino clock
-• Rearranged QS tiles
-• Added a dark overlay behind artwork background
-• Added Animated Ambient indication view
-• Added OOS filled vibrate icon in SB
-• Added a more glass like blur
-• Improvements to clip board access toast
-• Switched to Lawnchair as default launcher on vanilla builds
-• Updated Stitch image apk
-• Added call recording  dark theme and more settings to aosp dialer 
-• Fixed a slight visual bug when flashing the Rom
-• Made the OOS QS tile icon a little bigger 
-• Added more options for devices with refresh rate switching support
+Feature Additions: 
+
+• Added Re ticker
+• Slimmed Down qs date
+• Added Spanish translations
+• Introduced our own A12 Brightness Slider Style thnx to @kingoffmirzapur
+• Added Pulse 💦💦 (Super duper extreme visualizer)
+• Redesigned main settings header and spacer
+• Bolte Chapter 3 🥵🥵🥵
 
 For Builders:
-• Fixed QTI BT inclusions
-• Added support for devices with physical fingerprint sensor on power button
+
+• Kona platform won't need any special tweaks now for the hals to get built
